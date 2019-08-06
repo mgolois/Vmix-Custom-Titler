@@ -4,9 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vmix"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        mc:Ignorable="d" AllowsTransparency="True" WindowStyle="None"
+        Height="1280" Width="1920">
+    <Window.Background>
+        <SolidColorBrush Opacity="0.4" Color="Black"/>
+    </Window.Background>
+    <Grid/>
 </Window>
